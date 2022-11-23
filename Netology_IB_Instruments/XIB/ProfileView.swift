@@ -8,7 +8,11 @@
 import UIKit
 
 class ProfileView : UIView {
-    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var profileImage: UIImageView!{
+        didSet {
+            profileImage.image = UIImage(named: "kartinka")
+        }
+    }
     
     @IBOutlet weak var profileName: UILabel!
     

@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProfileView" customModule="Netology_IB_Instruments" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="393" height="429"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -55,6 +55,13 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemGreenColor"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="profileBirthday" destination="AUv-tp-m69" id="gtc-BC-hoJ"/>
+                <outlet property="profileCity" destination="HQR-TC-pNu" id="fq7-rs-GfG"/>
+                <outlet property="profileContent" destination="6Pn-d5-p4U" id="5cO-Av-2lW"/>
+                <outlet property="profileImage" destination="N1q-ua-IDp" id="yls-Wk-O3y"/>
+                <outlet property="profileName" destination="6JS-NL-OTG" id="4sB-7s-4IB"/>
+            </connections>
             <point key="canvasLocation" x="101.5267175572519" y="168.66197183098592"/>
         </view>
     </objects>
